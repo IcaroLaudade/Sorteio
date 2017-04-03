@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.icaro.sorteio.MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnGerarJogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="gerarJogo"
+        android:text="Gerar Jogo"></Button>
+
+    <TextView
+        android:id="@+id/txtJogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnProbabilidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Probabilidade de ganhar"
+        android:onClick="probabilidade"
+        >
+
+</Button>
+
+    </LinearLayout>
